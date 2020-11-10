@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>My Plugin</title>
+    <link href="plugin.css" rel="stylesheet">
+</head>
+<body>
+    <div>
+        <label>Width</label>
+        <input id="Width" type=number value =12 />
+    </div>
+    <div>
+        <label>Length</label>
+        <input id="Length" type=number value =12 />
+    </div>
+    <div>
+        <label>Height</label>
+        <input id="Height" type=number value =12 />
+    </div>
+    <input id="CreateBlockBtn" type=button value="Create Block" />
+    <!--Do not remove below scripts unless you know what you're doing-->
+    <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/FormIt.js"></script>
+    <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/FormItInterface.js"></script>
+    <script type="text/javascript" src="https://formit3d.github.io/FormItExamplePlugins/SharedPluginFiles/PluginUtils.js"></script>
+    <script type="text/javascript" src="plugin.js"></script>
+    <script type="text/javascript">
+        FormItInterface.Initialize();
+    </script>
+</body>
+</html>
